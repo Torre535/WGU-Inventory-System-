@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"com.example.wguinventorysystem","l":"com.example.wguinventorysystem"}];updateSearchResults();

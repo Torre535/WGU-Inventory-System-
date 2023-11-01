@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="modifyPartAnchorPane" prefHeight="457.0" prefWidth="492.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.wguinventorysystem.ModifyPartFormGUI">
+    <children>
+        <Label fx:id="modifyPartLabel" layoutX="47.0" layoutY="45.0" prefHeight="17.0" prefWidth="156.0" text="Modify Part">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <RadioButton fx:id="modifyPartInHouseButton" layoutX="178.0" layoutY="46.0" mnemonicParsing="false" onAction="#onModInHouseButton" selected="true" text="In-House" />
+        <RadioButton fx:id="modifyPartOutsourcedButton" layoutX="304.0" layoutY="46.0" mnemonicParsing="false" onAction="#onModOutsourcedButton" text="Outsourced" />
+        <Label fx:id="modifyPartIDLabel" layoutX="51.0" layoutY="99.0" text="ID" />
+        <Label fx:id="modifyPartLabelName" layoutX="52.0" layoutY="149.0" text="Name" />
+        <Label fx:id="modifyPartInvLabel" layoutX="55.0" layoutY="202.0" text="Inv" />
+        <Label fx:id="modifyPartMaxLabel" layoutX="52.0" layoutY="314.0" text="Max" />
+        <Label fx:id="modifyPartPriceLabel" layoutX="54.0" layoutY="252.0" text="Price/Cost" />
+        <Label fx:id="modifyPartMinLabel" layoutX="283.0" layoutY="314.0" text="Min" />
+        <TextField fx:id="modifyPartIDTextField" disable="true" layoutX="148.0" layoutY="95.0" prefHeight="25.0" prefWidth="156.0" promptText="Auto Gen - Disabled" />
+        <TextField fx:id="modifyPartNameTextField" layoutX="148.0" layoutY="145.0" prefHeight="25.0" prefWidth="156.0" />
+        <TextField fx:id="modifyPartInvTestField" layoutX="148.0" layoutY="198.0" prefHeight="25.0" prefWidth="156.0" />
+        <TextField fx:id="modifyPartPriceTextField" layoutX="148.0" layoutY="248.0" prefHeight="25.0" prefWidth="156.0" />
+        <TextField fx:id="modifyPartMaxTextField" layoutX="146.0" layoutY="310.0" prefHeight="25.0" prefWidth="113.0" />
+        <TextField fx:id="modifyPartMinTextField" layoutX="330.0" layoutY="310.0" prefHeight="25.0" prefWidth="113.0" />
+        <Button fx:id="modifyPartSaveButton" layoutX="293.0" layoutY="404.0" mnemonicParsing="false" onAction="#onSaveButton" text="Save">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="modifyPartCancelButton" layoutX="368.0" layoutY="404.0" mnemonicParsing="false" onAction="#onCancelButton" text="Cancel">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+      <Label fx:id="modifyPartMachineIDLabel" layoutX="57.0" layoutY="360.0" text="Machine ID" />
+      <TextField fx:id="modifyPartMachineIDTextField" layoutX="148.0" layoutY="356.0" prefHeight="25.0" prefWidth="156.0" />
+    </children>
+</AnchorPane>
